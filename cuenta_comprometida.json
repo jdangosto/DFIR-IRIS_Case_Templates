@@ -1,0 +1,70 @@
+{
+  "name": "CompromisoCuenta",
+  "display_name": "Compromiso de Cuenta",
+  "description": "Plantilla de caso para la gestión de incidentes de compromiso de cuentas",
+  "author": "Jesús Angosto",
+  "title_prefix": "[CUENTA]",
+  "summary": "Investigación y mitigación de un compromiso de cuenta",
+  "tags": ["cuenta", "compromiso"],
+  "classification": "intrusión:credenciales-comprometidas",
+  "tasks": [
+    {
+      "title": "Identificar cuentas comprometidas",
+      "description": "Revisar registros de acceso y alertas para detectar cuentas afectadas",
+      "tags": ["cuentas", "detección"]
+    },
+    {
+      "title": "Revisar actividad sospechosa",
+      "description": "Analizar reglas de reenvío, accesos desde ubicaciones inusuales y actividades anómalas",
+      "tags": ["actividad", "análisis"]
+    },
+    {
+      "title": "Contener y mitigar",
+      "description": "Forzar cambios de contraseña y activar MFA en las cuentas afectadas",
+      "tags": ["contención", "mitigación"]
+    },
+    {
+      "title": "Notificar a las partes afectadas",
+      "description": "Informar a los usuarios y departamentos correspondientes",
+      "tags": ["notificación", "usuarios"]
+    },
+    {
+      "title": "Reforzar políticas de autenticación",
+      "description": "Actualizar requisitos de contraseñas y políticas de seguridad de acceso",
+      "tags": ["políticas", "seguridad"]
+    },
+    {
+      "title": "Cadena de custodia",
+      "description": "Registrar y preservar evidencias de actividad de cuenta y accesos",
+      "tags": ["custodia", "evidencias"]
+    },
+    {
+      "title": "Lecciones aprendidas",
+      "description": "Documentar hallazgos y actualizar procedimientos de seguridad",
+      "tags": ["post-mortem", "mejora continua"]
+    }
+  ],
+  "note_directories": [
+    {
+      "title": "Detalles del compromiso de cuenta",
+      "notes": [
+        {
+          "title": "Cuentas comprometidas",
+          "content": "Listado de cuentas afectadas y descripción de las actividades maliciosas"
+        },
+        {
+          "title": "Evidencias recopiladas",
+          "content": "Logs de accesos y actividad sospechosa"
+        },
+        {
+          "title": "Cadena de custodia",
+          "content": "Registro de cómo se preservaron las evidencias de acceso y actividad"
+        },
+        {
+          "title": "Lecciones aprendidas",
+          "content": "Recomendaciones para evitar futuros compromisos de cuentas"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "AmenazaInterna",
+  "display_name": "Amenaza Interna",
+  "description": "Plantilla de caso para la gestión de incidentes de amenazas internas",
+  "author": "Jesús Angosto",
+  "title_prefix": "[INTERNA]",
+  "summary": "Investigación y mitigación de una amenaza interna",
+  "tags": ["amenaza interna", "empleado"],
+  "classification": "otro:otro",
+  "tasks": [
+    {
+      "title": "Identificar actividad sospechosa",
+      "description": "Determinar el alcance de la actividad sospechosa y los recursos afectados",
+      "tags": ["actividad", "alcance"]
+    },
+    {
+      "title": "Recopilar evidencias",
+      "description": "Recopilar registros, correos electrónicos y otros datos relevantes para establecer una línea de tiempo e identificar a las partes implicadas",
+      "tags": ["evidencia", "registros"]
+    },
+    {
+      "title": "Asegurar recursos afectados",
+      "description": "Asegurar los recursos afectados mediante cambios en los controles de acceso y revocación de credenciales",
+      "tags": ["seguridad", "acceso"]
+    },
+    {
+      "title": "Entrevistar a las partes implicadas",
+      "description": "Entrevistar al presunto implicado y a posibles testigos para obtener más información",
+      "tags": ["entrevista", "testigos"]
+    },
+    {
+      "title": "Implementar mejoras de seguridad",
+      "description": "Aplicar y actualizar medidas de seguridad para prevenir futuras amenazas internas",
+      "tags": ["seguridad", "prevención"]
+    },
+    {
+      "title": "Lecciones aprendidas",
+      "description": "Revisar el incidente y actualizar procedimientos internos para reforzar la respuesta ante amenazas internas",
+      "tags": ["post-mortem", "mejora continua"]
+    }
+  ],
+  "note_directories": [
+    {
+      "title": "Detalles de la amenaza interna",
+      "notes": [
+        {
+          "title": "Actividad sospechosa",
+          "content": "Detalles de la actividad sospechosa que dio lugar a la investigación"
+        },
+        {
+          "title": "Evidencias recopiladas",
+          "content": "Resumen de las evidencias recopiladas durante la investigación"
+        },
+        {
+          "title": "Resultados de entrevistas",
+          "content": "Resumen de las entrevistas realizadas durante la investigación"
+        },
+        {
+          "title": "Lecciones aprendidas",
+          "content": "Análisis de las lecciones aprendidas y acciones recomendadas para prevenir incidentes similares"
+        }
+      ]
+    }
+  ]
+}

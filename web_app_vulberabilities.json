@@ -1,0 +1,52 @@
+{
+  "name": "VulnerabilidadWebApp",
+  "display_name": "Vulnerabilidad en Aplicación Web",
+  "description": "Plantilla de caso para la gestión de incidentes de vulnerabilidades en aplicaciones web",
+  "author": "Jesús Angosto",
+  "title_prefix": "[WEBAPP]",
+  "summary": "Investigación y mitigación de una vulnerabilidad en aplicación web",
+  "tags": ["aplicación web", "vulnerabilidad"],
+  "classification": "intrusión:compromiso-aplicación",
+  "tasks": [
+    {
+      "title": "Identificar componentes vulnerables",
+      "description": "Determinar el alcance de la vulnerabilidad identificando los componentes y sistemas afectados",
+      "tags": ["componentes", "alcance"]
+    },
+    {
+      "title": "Evaluar el riesgo",
+      "description": "Evaluar el impacto potencial y la probabilidad de explotación de la vulnerabilidad",
+      "tags": ["riesgo", "evaluación"]
+    },
+    {
+      "title": "Desarrollar plan de mitigación",
+      "description": "Crear un plan para mitigar la vulnerabilidad, incluyendo la aplicación de parches u otras medidas de seguridad",
+      "tags": ["mitigación", "plan"]
+    },
+    {
+      "title": "Aplicar mitigación",
+      "description": "Implementar los parches o medidas de seguridad conforme al plan de mitigación",
+      "tags": ["implementación", "parcheo"]
+    },
+    {
+      "title": "Monitorizar intentos de explotación",
+      "description": "Supervisar registros y otras fuentes de datos para detectar intentos de explotación dirigidos a la vulnerabilidad",
+      "tags": ["monitorización", "explotación"]
+    },
+    {
+      "title": "Reforzar medidas de seguridad",
+      "description": "Actualizar y reforzar las medidas de seguridad para prevenir vulnerabilidades futuras",
+      "tags": ["seguridad", "prevención"]
+    },
+    {
+      "title": "Cadena de custodia",
+      "description": "Documentar y preservar evidencias relevantes manteniendo la cadena de custodia durante todo el proceso",
+      "tags": ["evidencias", "custodia"]
+    },
+    {
+      "title": "Lecciones aprendidas",
+      "description": "Analizar el incidente y actualizar procedimientos para mejorar la respuesta ante futuras vulnerabilidades",
+      "tags": ["post-mortem", "mejora continua"]
+	}
+      ]
+    }

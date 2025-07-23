@@ -1,0 +1,69 @@
+{
+  "name": "AtaqueDDoS",
+  "display_name": "Ataque DDoS",
+  "description": "Plantilla de caso para la gestión de incidentes de ataques DDoS",
+  "author": "Jesús Angosto",
+  "title_prefix": "[DDOS]",
+  "summary": "Investigación y mitigación de un ataque DDoS",
+  "tags": ["DDoS", "red"],
+  "classification": "disponibilidad:ddos",
+  "tasks": [
+    {
+      "title": "Identificar vector de ataque",
+      "description": "Determinar el tipo y origen del ataque DDoS, incluyendo posibles botnets o servicios maliciosos involucrados",
+      "tags": ["vector", "origen"]
+    },
+    {
+      "title": "Mitigar el ataque",
+      "description": "Aplicar estrategias de mitigación como filtrado de tráfico, rate limiting y colaboración con el ISP",
+      "tags": ["mitigación", "tráfico"]
+    },
+    {
+      "title": "Monitorizar la red",
+      "description": "Supervisar el tráfico de red para asegurar que el ataque ha sido mitigado y detectar posibles reintentos",
+      "tags": ["monitorización", "tráfico"]
+    },
+    {
+      "title": "Realizar análisis forense de red",
+      "description": "Analizar registros y capturas de red para comprender la metodología y herramientas empleadas por los atacantes",
+      "tags": ["forense", "análisis"]
+    },
+    {
+      "title": "Actualizar mecanismos de defensa",
+      "description": "Reforzar las medidas de protección y actualizar los procedimientos para prevenir ataques similares",
+      "tags": ["defensa", "prevención"]
+    },
+    {
+      "title": "Lecciones aprendidas",
+      "description": "Documentar hallazgos y recomendaciones para mejorar la preparación y respuesta ante futuros ataques DDoS",
+      "tags": ["post-mortem", "mejora continua"]
+    }
+  ],
+  "note_directories": [
+    {
+      "title": "Detalles del ataque DDoS",
+      "notes": [
+        {
+          "title": "Vector de ataque",
+          "content": "Detalles del vector del ataque DDoS identificado"
+        },
+        {
+          "title": "Origen del ataque",
+          "content": "Información sobre la procedencia del ataque y posibles actores implicados"
+        },
+        {
+          "title": "Estrategias de mitigación",
+          "content": "Resumen de las acciones tomadas para mitigar el ataque"
+        },
+        {
+          "title": "Análisis forense",
+          "content": "Resultados del análisis forense de los registros y tráfico de red"
+        },
+        {
+          "title": "Lecciones aprendidas",
+          "content": "Resumen de mejoras y recomendaciones tras el incidente"
+        }
+      ]
+    }
+  ]
+}

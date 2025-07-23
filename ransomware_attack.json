@@ -1,0 +1,81 @@
+{
+    "name": "RansomwareAttack",
+    "display_name": "Ransomware Attack",
+    "description": "Una plantilla de casos para manejar incidentes de ransomware",
+    "author": "Jesús Angosto",
+    "title_prefix": "[RANSOMWARE]",
+    "summary": "Investigación, contención, erradiación de ataque por malware de tipo ransomware",
+    "classification": "malicious-code:ransomware",
+    "tags": ["ransomware", "malware"],
+    "tasks": [
+       {
+        "title": "Identificar vector de entrada",
+        "description": "Intentar determinar el vector de entrada de la infección",
+        "tags": ["infection", "scope"]
+      },
+	  {
+        "title": "Identificar el número de sistemas infectados",
+        "description": "Determinar el alacance de la infección, identificando sistemas y usuarios afectados",
+        "tags": ["infection", "scope"]
+      },
+      {
+        "title": "Contención de la infección",
+        "description": "Aislar sistemas infectados y deshabilitar las comunicaciones entre redes para evitar una mayor propagación",
+        "tags": ["containment", "network"]
+      },
+      {
+        "title": "Analisis de ransomware",
+        "description": "Análisis de malware para recopilar información sobre el ransomware y su comportamiento. Extraer IOC y posterior búsqueda de éstos por si hubiera más propagación en otros sistemas",
+        "tags": ["analysis", "malware"]
+      },
+      {
+        "title": "Restauración de backups",
+        "description": "Restaurar sistemas y datos, previamente se han de analizar las copias de seguridad y sistemas restaurados.",
+        "tags": ["recovery", "backups"]
+      },
+      {
+        "title": "Incrementar medidas de seguridad",
+        "description": "Implementar nuevas medidas de seguridad y revisión de las existentes.",
+        "tags": ["security", "prevention"]
+      }, 
+      {
+        "title": "Reporte a las autoridades competentes",
+        "description": "Reporte a las autoridades competentes (CCN, Agencia de protección de datos,...)",
+        "tags": ["reporting", "authorities"]
+      },
+      {
+        "title": "Lecciones aprendidas",
+        "description": "Lecciones aprendidas y actualización del plan de respuesta a incidentes",
+        "tags": ["lessons learned", "incident response plan"]
+      }
+    ],
+    "note_directories": [
+      {
+        "title": "Ransomware detalle",
+        "notes": [
+          {
+            "title": "Ransomware variante",
+            "content": "Detalle de la variante de Ransomware"
+          },
+          {
+            "title": "Ransomware comportamiento",
+            "content": "Resumen del comportamiento del Ransomware"
+          }
+        ]
+      }, 
+      {
+        "title": "Comunicación",
+        "notes": [ 
+            {
+                "title": "Communicación con los actores de amenaza",
+                "content": "Resumen de la comunicación con los actores de amenaza (SI la hubiera)"
+            },
+            {
+                "title": "Communication with authorities",
+                "content": "Summary of communication with authorities"
+            }
+        ]
+      }
+    ]
+  }
+  

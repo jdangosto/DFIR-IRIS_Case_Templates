@@ -1,0 +1,74 @@
+{
+  "name": "AtaqueFuerzaBruta",
+  "display_name": "Ataque de Fuerza Bruta",
+  "description": "Plantilla de caso para la gestión de incidentes de ataques de fuerza bruta o password spraying",
+  "author": "Jesús Angosto",
+  "title_prefix": "[BRUTEFORCE]",
+  "summary": "Investigación y mitigación de un ataque de fuerza bruta contra sistemas expuestos",
+  "tags": ["fuerza bruta", "autenticación", "acceso no autorizado"],
+  "classification": "intrusión:ataque-fuerza-bruta",
+  "tasks": [
+    {
+      "title": "Detectar intentos de fuerza bruta",
+      "description": "Analizar registros de autenticación y alertas de seguridad para identificar patrones de ataques (volumen, origen, credenciales utilizadas)",
+      "tags": ["detección", "autenticación"]
+    },
+    {
+      "title": "Identificar sistemas objetivo",
+      "description": "Localizar servicios y endpoints expuestos que están siendo atacados",
+      "tags": ["identificación", "sistemas"]
+    },
+    {
+      "title": "Bloquear fuentes del ataque",
+      "description": "Aplicar bloqueos a IPs/ASNs maliciosas mediante firewall o servicios de seguridad perimetral",
+      "tags": ["bloqueo", "mitigación"]
+    },
+    {
+      "title": "Verificar accesos exitosos",
+      "description": "Revisar si algún intento ha conseguido acceso y evaluar impacto",
+      "tags": ["verificación", "impacto"]
+    },
+    {
+      "title": "Reforzar políticas de acceso",
+      "description": "Activar MFA, limitar intentos de login y endurecer políticas de contraseñas",
+      "tags": ["seguridad", "autenticación"]
+    },
+    {
+      "title": "Cadena de custodia",
+      "description": "Preservar evidencias relevantes como registros de autenticación, alertas y artefactos forenses",
+      "tags": ["custodia", "evidencias"]
+    },
+    {
+      "title": "Lecciones aprendidas",
+      "description": "Actualizar procesos de detección y endurecimiento tras el análisis post-incidente",
+      "tags": ["post-mortem", "mejora continua"]
+    }
+  ],
+  "note_directories": [
+    {
+      "title": "Detalles del ataque de fuerza bruta",
+      "notes": [
+        {
+          "title": "Patrones de ataque",
+          "content": "Resumen de patrones detectados: número de intentos, horarios, IPs de origen"
+        },
+        {
+          "title": "Sistemas objetivo",
+          "content": "Listado de servicios y sistemas atacados"
+        },
+        {
+          "title": "Evidencias recopiladas",
+          "content": "Logs de autenticación, alertas de IDS/IPS y otros datos preservados"
+        },
+        {
+          "title": "Cadena de custodia",
+          "content": "Registro completo de la manipulación y preservación de las evidencias"
+        },
+        {
+          "title": "Lecciones aprendidas",
+          "content": "Medidas y recomendaciones para prevenir ataques de fuerza bruta en el futuro"
+        }
+      ]
+    }
+  ]
+}

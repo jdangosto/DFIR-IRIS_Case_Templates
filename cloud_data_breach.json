@@ -1,0 +1,57 @@
+{
+    "name": "CloudDataBreach",
+    "display_name": "Cloud Data Breach",
+    "description": "A case template for handling cloud data breach incidents",
+    "author": "Jesús Angosto",
+    "title_prefix": "[CLOUD]",
+    "summary": "Investigation and mitigation of a cloud data breach",
+    "tags": ["cloud", "data breach"],
+    "classification": "intrusion:application-compromise",
+    "tasks": [
+      {
+        "title": "Identify affected data",
+        "description": "Determine the scope of the breach by identifying affected data and systems",
+        "tags": ["data", "scope"]
+      },
+      {
+        "title": "Assess breach impact",
+        "description": "Evaluate the potential impact of the breach on organizational operations and assets",
+        "tags": ["impact", "assessment"]
+      },
+      {
+        "title": "Secure compromised systems",
+        "description": "Secure compromised systems by changing access controls, patching vulnerabilities, or other necessary steps",
+        "tags": ["security", "access controls"]
+      },
+      {
+        "title": "Notify affected parties",
+        "description": "Notify affected parties about the breach, in accordance with legal and regulatory requirements",
+        "tags": ["notification", "regulatory requirements"]
+      },
+      {
+        "title": "Implement security improvements",
+        "description": "Implement and update security measures to prevent future data breaches",
+        "tags": ["security", "prevention"]
+      }
+    ],
+    "note_groups": [
+      {
+        "title": "Cloud data breach details",
+        "notes": [
+          {
+            "title": "Breach description",
+            "content": "Details of the data breach, including the time of occurrence, how it was discovered, and suspected causes"
+          },
+          {
+            "title": "Affected data",
+            "content": "List of affected data and systems"
+          },
+          {
+            "title": "Security measures",
+            "content": "Summary of the security measures implemented to prevent future data breaches"
+          }
+        ]
+      }
+    ]
+  }
+  

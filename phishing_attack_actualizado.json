@@ -1,0 +1,134 @@
+{
+    "name": "PhishingAttack",
+    "display_name": "Phishing Attack",
+    "description": "Plantilla para manejar casos de phising",
+    "author": "Jesús Angosto",
+    "title_prefix": "[PHISHING]",
+    "summary": "Investigación y mitación de incidentes de Phising",
+    "classification": "fraud:phishing",
+    "tags": [
+        "phishing",
+        "email"
+    ],
+    "tasks": [
+        {
+            "title": "Verificación de la dirección de correo del Phising",
+            "description": "Confirmar que la dirección de correo pertenece a phising.",
+            "tags": [
+                "email",
+                "verification"
+            ]
+        },
+        {
+            "title": "Análisis del correo",
+            "description": "Análisis de las cabeceras del correo, contenido y adjuntos para la obtención de IOCs.",
+            "tags": [
+                "analysis",
+                "IOCs"
+            ]
+        },
+        {
+            "title": "Bloquear el remitente",
+            "description": "Bloquear la dirección de correo del remitente para prevenir futuros correos.",
+            "tags": [
+                "email",
+                "blocking"
+            ]
+        },
+        {
+            "title": "Notificar a los usuarios afectados",
+            "description": "Notificar a los usuarios afectados y facilitar una guía de concienciación sobre phising.",
+            "tags": [
+                "communication",
+                "awareness"
+            ]
+        },
+        {
+            "title": "Actualizar pautas de concienciación",
+            "description": "Actualizar o realizar actividades formativas sobre Phising.",
+            "tags": [
+                "training",
+                "prevention"
+            ]
+        },
+        {
+            "title": "Fuente de detección",
+            "description": "Indicar cómo se detectó el ataque (ej. alerta de SIEM, reporte de usuario, herramienta de análisis de correo).",
+            "tags": [
+                "detección",
+                "origen"
+            ]
+        },
+        {
+            "title": "Análisis de enlaces maliciosos",
+            "description": "Verificar si los enlaces en el correo llevan a sitios maliciosos o de suplantación.",
+            "tags": [
+                "análisis",
+                "URLs",
+                "phishing"
+            ]
+        },
+        {
+            "title": "Análisis de adjuntos",
+            "description": "Examinar archivos adjuntos en busca de malware o scripts maliciosos.",
+            "tags": [
+                "adjuntos",
+                "malware",
+                "análisis"
+            ]
+        },
+        {
+            "title": "Revisión de reglas de filtrado",
+            "description": "Verificar y actualizar las reglas de filtrado de correo para prevenir futuros ataques similares.",
+            "tags": [
+                "contención",
+                "filtrado",
+                "prevención"
+            ]
+        },
+        {
+            "title": "Revisión de accesos comprometidos",
+            "description": "Verificar si algún usuario ha sido comprometido y tomar medidas (reset de contraseñas, revisión de logs).",
+            "tags": [
+                "credenciales",
+                "acceso",
+                "mitigación"
+            ]
+        },
+        {
+            "title": "Informe de incidente",
+            "description": "Documentar todo el proceso de investigación, acciones tomadas y recomendaciones.",
+            "tags": [
+                "documentación",
+                "informe",
+                "cierre"
+            ]
+        },
+        {
+            "title": "Evidencias recolectadas",
+            "description": "Listado de archivos, capturas, logs y otros elementos usados en la investigación.",
+            "tags": [
+                "evidencias",
+                "recopilación"
+            ]
+        }
+    ],
+    "note_directories": [
+        {
+            "title": "Phishing email contenido de cabeceras",
+            "content": "Detalle de las cabeceras del correo electrónico."
+        },
+        {
+            "title": "Phishing email contenido",
+            "content": "Resumen del contenido del correo."
+        },
+        {
+            "title": "Fuente de detección",
+            "content": "Detalles sobre cómo se detectó el incidente (ej. alerta automática, reporte manual, etc.)"
+        },
+        {
+            "title": "Evidencias recolectadas",
+            "content": "Listado de archivos, capturas de pantalla, logs y otros elementos utilizados durante la investigación."
+        }
+    ]
+}

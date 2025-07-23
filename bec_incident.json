@@ -1,0 +1,47 @@
+{
+  "name": "IncidenteBEC",
+  "display_name": "Business Email Compromise (BEC)",
+  "description": "Plantilla de caso para la gestión de incidentes de compromiso de correo electrónico empresarial (BEC)",
+  "author": "Jesús Angosto",
+  "title_prefix": "[BEC]",
+  "summary": "Investigación y mitigación de un compromiso de correo electrónico empresarial",
+  "tags": ["BEC", "correo electrónico", "fraude"],
+  "classification": "intrusión:compromiso-correo",
+  "tasks": [
+    {
+      "title": "Identificar cuentas de correo comprometidas",
+      "description": "Revisar accesos sospechosos y detectar cuentas afectadas en la infraestructura de correo",
+      "tags": ["correo", "cuentas"]
+    },
+    {
+      "title": "Analizar actividad fraudulenta",
+      "description": "Buscar correos maliciosos, reglas de reenvío y solicitudes de transferencias no autorizadas",
+      "tags": ["análisis", "fraude"]
+    },
+    {
+      "title": "Contener y mitigar",
+      "description": "Revocar sesiones activas, forzar cambio de credenciales y activar MFA",
+      "tags": ["contención", "mitigación"]
+    },
+    {
+      "title": "Coordinar con finanzas y legales",
+      "description": "Informar a los departamentos relevantes y contactar entidades financieras si hay fraude económico",
+      "tags": ["coordinación", "finanzas"]
+    },
+    {
+      "title": "Notificar a las partes externas afectadas",
+      "description": "Alertar a clientes o proveedores potencialmente impactados por correos fraudulentos",
+      "tags": ["notificación", "externo"]
+    },
+    {
+      "title": "Reforzar seguridad del correo electrónico",
+      "description": "Aplicar configuraciones avanzadas (DKIM, DMARC, SPF) y revisar políticas de acceso",
+      "tags": ["seguridad", "correo"]
+    },
+    {
+      "title": "Cadena de custodia",
+      "description": "Preservar correo"
+}
+      ]
+   }
+

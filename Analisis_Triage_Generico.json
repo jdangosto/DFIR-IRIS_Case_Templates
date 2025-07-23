@@ -1,0 +1,126 @@
+{
+    "name": "analisis_triage_generico",
+    "display_name": "Análisis de Triage Genérico",
+    "description": "Plantilla avanzada para el análisis de triage utilizando herramientas de recolección y análisis forense (PowerTriage, CyberTriage, TriageX, KAPE, Velociraptor, etc.) en endpoints potencialmente comprometidos.",
+    "author": "Jesús Angosto",
+    "classification": "forense:analisis-triage-avanzado",
+    "title_prefix": "[TRIAGE]",
+    "summary": "# Contexto\n\nEste caso cubre el proceso de triage sobre endpoints potencialmente comprometidos utilizando herramientas de respuesta forense. El objetivo es obtener una visión rápida del compromiso, priorizar los sistemas afectados y establecer las primeras medidas de contención.\n\n# Contacto\n\n- Analista IR:\n- Contacto del cliente:\n\n# Acciones\n\n- Recolección de datos con herramientas de triage.\n- Análisis de artefactos clave (procesos, persistencia, red, usuarios).\n- Clasificación y recomendaciones.",
+    "tags": [
+        "triage",
+        "forense",
+        "malware",
+        "actividad-sospechosa",
+        "respuesta-rapida",
+        "powertriage",
+        "cybertriage",
+        "triagex",
+        "kape",
+        "velociraptor"
+    ],
+    "tasks": [
+        {
+            "title": "Definir alcance e identificar endpoints",
+            "description": "Identificar endpoints que requieren análisis de triage según alertas, registros y comportamiento sospechoso.",
+            "tags": ["alcance", "identificar"]
+        },
+        {
+            "title": "Realizar recolección de datos",
+            "description": "Ejecutar la herramienta de triage seleccionada en los endpoints para obtener datos volátiles y no volátiles (memoria, disco, registro, red).",
+            "tags": ["recolectar", "triage"]
+        },
+        {
+            "title": "Análisis de artefactos: Procesos activos",
+            "description": "Revisar procesos en ejecución y ejecutables recientes en busca de actividad sospechosa o desconocida.",
+            "tags": ["analizar", "procesos"]
+        },
+        {
+            "title": "Análisis de artefactos: Persistencia",
+            "description": "Identificar mecanismos de persistencia como claves de autorun, tareas programadas, servicios o drivers instalados.",
+            "tags": ["analizar", "persistencia"]
+        },
+        {
+            "title": "Análisis de artefactos: Red",
+            "description": "Revisar conexiones de red activas y recientes, incluyendo direcciones IP externas, dominios y uso de protocolos no autorizados.",
+            "tags": ["analizar", "red"]
+        },
+        {
+            "title": "Análisis de artefactos: Actividad de usuario",
+            "description": "Examinar sesiones activas, cuentas utilizadas, historial de comandos y accesos recientes.",
+            "tags": ["analizar", "usuarios"]
+        },
+        {
+            "title": "Correlación de indicadores de compromiso (IoCs)",
+            "description": "Correlacionar hallazgos con IoCs conocidos: hashes, dominios, direcciones IP, nombres de archivo.",
+            "tags": ["correlacionar", "iocs"]
+        },
+        {
+            "title": "Clasificar el incidente y recomendar acciones",
+            "description": "Clasificar el incidente según los hallazgos (malware, APT, acceso no autorizado, etc.) y definir acciones de contención y próximos pasos.",
+            "tags": ["clasificación", "recomendación"]
+        }
+    ],
+    "note_directories": [
+        {
+            "title": "Definición de Alcance",
+            "notes": [
+                {
+                    "title": "Endpoints identificados",
+                    "content": "# Endpoints seleccionados\n\n- Lista de sistemas\n- Motivo de inclusión\n- Prioridad de análisis\n"
+                }
+            ]
+        },
+        {
+            "title": "Recolección de Datos",
+            "notes": [
+                {
+                    "title": "Herramienta utilizada y parámetros",
+                    "content": "# Detalles\n\n- Herramienta de triage utilizada:\n- Versión:\n- Parámetros de ejecución:\n- Problemas encontrados:\n"
+                },
+                {
+                    "title": "Resumen de datos recolectados",
+                    "content": "# Resumen\n\n- Sistemas recolectados:\n- Tamaño de datos:\n- Artefactos clave obtenidos:\n"
+                }
+            ]
+        },
+        {
+            "title": "Análisis de Artefactos",
+            "notes": [
+                {
+                    "title": "Procesos activos y ejecutables recientes",
+                    "content": "# Hallazgos\n\n- Procesos sospechosos:\n- Ubicaciones inusuales de ejecutables:\n- Hashes relevantes:\n"
+                },
+                {
+                    "title": "Persistencia y configuraciones",
+                    "content": "# Hallazgos\n\n- Claves de registro de autorun:\n- Tareas programadas sospechosas:\n- Servicios o drivers no autorizados:\n"
+                },
+                {
+                    "title": "Actividad de red",
+                    "content": "# Hallazgos\n\n- Conexiones externas sospechosas:\n- Resoluciones DNS anómalas:\n- Protocolos no autorizados:\n"
+                },
+                {
+                    "title": "Actividad de usuario",
+                    "content": "# Hallazgos\n\n- Cuentas involucradas:\n- Últimos inicios de sesión:\n- Historial de comandos:\n"
+                },
+                {
+                    "title": "Indicadores de compromiso (IoCs)",
+                    "content": "# IoCs detectados\n\n- Archivos:\n- Hashes:\n- IPs/Dominios:\n- URLs:\n"
+                }
+            ]
+        },
+        {
+            "title": "Clasificación y Recomendaciones",
+            "notes": [
+                {
+                    "title": "Clasificación del incidente",
+                    "content": "# Clasificación\n\n- Tipo de incidente:\n- Sistemas afectados:\n- Nivel de criticidad:\n"
+                },
+                {
+                    "title": "Próximos pasos y contención",
+                    "content": "# Recomendaciones\n\n- Acciones inmediatas:\n- Contención sugerida:\n- Análisis adicional:\n"
+                }
+            ]
+        }
+    ]
+}
+

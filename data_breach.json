@@ -1,0 +1,69 @@
+{
+  "name": "FugaDatos",
+  "display_name": "Fuga de Datos",
+  "description": "Plantilla de caso para la gestión de incidentes de fuga de datos",
+  "author": "Jesús Angosto",
+  "title_prefix": "[FUGA]",
+  "summary": "Investigación y mitigación de una fuga de datos",
+  "tags": ["fuga de datos", "privacidad"],
+  "classification": "seguridad-información:acceso-no-autorizado",
+  "tasks": [
+    {
+      "title": "Identificar datos comprometidos",
+      "description": "Determinar el alcance de la fuga identificando los datos y sistemas afectados",
+      "tags": ["datos", "alcance"]
+    },
+    {
+      "title": "Contener la fuga",
+      "description": "Asegurar los sistemas comprometidos y evitar nuevos accesos no autorizados",
+      "tags": ["contención", "acceso"]
+    },
+    {
+      "title": "Realizar análisis forense",
+      "description": "Analizar sistemas y registros para identificar la causa raíz y el vector de compromiso",
+      "tags": ["forense", "causa raíz"]
+    },
+    {
+      "title": "Notificar a las partes afectadas",
+      "description": "Informar a las personas y autoridades pertinentes sobre la fuga según las obligaciones legales y de cumplimiento",
+      "tags": ["notificación", "compliance"]
+    },
+    {
+      "title": "Mejorar la seguridad",
+      "description": "Aplicar medidas correctivas y reforzar la postura de seguridad para evitar fugas futuras",
+      "tags": ["seguridad", "prevención"]
+    },
+    {
+      "title": "Lecciones aprendidas",
+      "description": "Evaluar la respuesta al incidente y actualizar procedimientos internos para mejorar la preparación futura",
+      "tags": ["post-mortem", "mejora continua"]
+    }
+  ],
+  "note_directories": [
+    {
+      "title": "Detalles de la fuga de datos",
+      "notes": [
+        {
+          "title": "Datos comprometidos",
+          "content": "Detalles sobre los datos comprometidos en la fuga"
+        },
+        {
+          "title": "Causa raíz",
+          "content": "Resumen de la causa raíz identificada durante la investigación"
+        },
+        {
+          "title": "Análisis forense",
+          "content": "Evidencias y hallazgos forenses relevantes"
+        },
+        {
+          "title": "Notificación",
+          "content": "Registro de notificaciones a afectados y autoridades"
+        },
+        {
+          "title": "Lecciones aprendidas",
+          "content": "Acciones y recomendaciones tras el análisis post-mortem"
+        }
+      ]
+    }
+  ]
+}

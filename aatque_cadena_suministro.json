@@ -1,0 +1,70 @@
+{
+  "name": "AtaqueCadenaSuministro",
+  "display_name": "Ataque a la Cadena de Suministro",
+  "description": "Plantilla de caso para la gestión de incidentes de ataques a la cadena de suministro",
+  "author": "Jesús Angosto",
+  "title_prefix": "[SUPPLYCHAIN]",
+  "summary": "Investigación y mitigación de un ataque a la cadena de suministro",
+  "tags": ["cadena de suministro", "proveedores", "software"],
+  "classification": "intrusión:compromiso-proveedor",
+  "tasks": [
+    {
+      "title": "Identificar software o servicios afectados",
+      "description": "Determinar qué productos o servicios de terceros han sido comprometidos",
+      "tags": ["software", "proveedores"]
+    },
+    {
+      "title": "Analizar impacto en la organización",
+      "description": "Revisar qué sistemas internos utilizan los componentes comprometidos",
+      "tags": ["impacto", "análisis"]
+    },
+    {
+      "title": "Contener y mitigar",
+      "description": "Aislar los sistemas afectados y aplicar mitigaciones temporales en colaboración con el proveedor",
+      "tags": ["contención", "mitigación"]
+    },
+    {
+      "title": "Revisar integridad y comunicaciones",
+      "description": "Verificar integridad de archivos, configuraciones y conexiones salientes sospechosas",
+      "tags": ["integridad", "red"]
+    },
+    {
+      "title": "Coordinar con terceros",
+      "description": "Trabajar con proveedores, CERTs y autoridades para resolución y notificación",
+      "tags": ["coordinación", "proveedores"]
+    },
+    {
+      "title": "Cadena de custodia",
+      "description": "Documentar y preservar evidencias relacionadas con la brecha en la cadena de suministro",
+      "tags": ["custodia", "evidencias"]
+    },
+    {
+      "title": "Lecciones aprendidas",
+      "description": "Actualizar procesos de gestión de proveedores y medidas de seguridad para futuras evaluaciones",
+      "tags": ["post-mortem", "mejora continua"]
+    }
+  ],
+  "note_directories": [
+    {
+      "title": "Detalles del ataque a la cadena de suministro",
+      "notes": [
+        {
+          "title": "Software o servicios comprometidos",
+          "content": "Lista y detalles de los productos/servicios de terceros afectados"
+        },
+        {
+          "title": "Evidencias recopiladas",
+          "content": "Resumen de artefactos y registros recolectados"
+        },
+        {
+          "title": "Cadena de custodia",
+          "content": "Documentación de la manipulación y preservación de evidencias"
+        },
+        {
+          "title": "Lecciones aprendidas",
+          "content": "Análisis post-incidente y mejoras propuestas en la gestión de proveedores"
+        }
+      ]
+    }
+  ]
+}

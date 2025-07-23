@@ -1,0 +1,52 @@
+{
+  "name": "IntrusionOT",
+  "display_name": "Intrusión en Infraestructura OT",
+  "description": "Plantilla de caso para la gestión de incidentes de intrusión en entornos OT/ICS",
+  "author": "Jesús Angosto",
+  "title_prefix": "[OT]",
+  "summary": "Investigación y mitigación de una intrusión en infraestructura OT",
+  "tags": ["OT", "ICS", "industrial"],
+  "classification": "infraestructura:intrusión-ot",
+  "tasks": [
+    {
+      "title": "Identificar sistemas OT afectados",
+      "description": "Revisar dispositivos industriales (PLC, SCADA, HMI) comprometidos y su alcance en la red OT",
+      "tags": ["identificación", "OT"]
+    },
+    {
+      "title": "Aislar redes industriales",
+      "description": "Implementar segmentación o desconexión controlada para evitar propagación",
+      "tags": ["aislamiento", "contención"]
+    },
+    {
+      "title": "Recolectar evidencias",
+      "description": "Extraer registros de controladores, capturas de red y configuraciones manteniendo la cadena de custodia",
+      "tags": ["evidencias", "forense"]
+    },
+    {
+      "title": "Analizar vectores de compromiso",
+      "description": "Determinar cómo accedió el atacante a la red OT (VPN, ingeniería social, vulnerabilidades)",
+      "tags": ["análisis", "vectores"]
+    },
+    {
+      "title": "Coordinar con equipos OT",
+      "description": "Colaborar con ingenieros OT para evaluar impacto en procesos industriales y aplicar mitigaciones",
+      "tags": ["coordinación", "OT"]
+    },
+    {
+      "title": "Restaurar y reforzar",
+      "description": "Restaurar operaciones y aplicar medidas de seguridad específicas para entornos OT",
+      "tags": ["restauración", "seguridad"]
+    },
+    {
+      "title": "Cadena de custodia",
+      "description": "Documentar el manejo de evidencias críticas en entornos industriales",
+      "tags": ["custodia", "integridad"]
+    },
+    {
+      "title": "Lecciones aprendidas",
+      "description": "Actualizar procedimientos de ciberseguridad OT e integrar lecciones en la estrategia de defensa",
+      "tags": ["post-mortem", "mejora continua"]
+    }
+  ]
+}

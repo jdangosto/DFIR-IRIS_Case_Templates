@@ -1,0 +1,70 @@
+{
+    "name": "PhishingAttack",
+    "display_name": "Phishing Attack",
+    "description": "A case template for handling phishing attack incidents",
+    "author": "Jesús Angosto",
+    "title_prefix": "[PHISHING]",
+    "summary": "Investigation and mitigation of a phishing attack",
+    "classification": "fraud:phishing",
+    "tags": [
+        "phishing",
+        "email"
+    ],
+    "tasks": [
+        {
+            "title": "Verify phishing email",
+            "description": "Confirm the email is indeed a phishing attempt",
+            "tags": [
+                "email",
+                "verification"
+            ]
+        },
+        {
+            "title": "Analyze phishing email",
+            "description": "Analyze the email headers, content, and any attachments for IOCs",
+            "tags": [
+                "analysis",
+                "IOCs"
+            ]
+        },
+        {
+            "title": "Block sender",
+            "description": "Block the sender's email address to prevent further attempts",
+            "tags": [
+                "email",
+                "blocking"
+            ]
+        },
+        {
+            "title": "Notify affected users",
+            "description": "Notify affected users about the phishing attack and provide guidance",
+            "tags": [
+                "communication",
+                "awareness"
+            ]
+        },
+        {
+            "title": "Update security awareness training",
+            "description": "Update security awareness training materials to cover this type of phishing attempt if unknown",
+            "tags": [
+                "training",
+                "prevention"
+            ]
+        }
+    ],
+    "note_groups": [
+        {
+            "title": "Phishing email details",
+            "notes": [
+                {
+                    "title": "Phishing email header",
+                    "content": "Details of the email header"
+                },
+                {
+                    "title": "Phishing email content",
+                    "content": "Summary of the email content"
+                }
+            ]
+        }
+    ]
+}
